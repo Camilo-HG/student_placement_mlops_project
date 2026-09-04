@@ -1,0 +1,19 @@
+[project]
+name = "student-placement-mlops-project"
+version = "0.1.0"
+description = "MLOps practices applied to Student Placement project"
+readme = "README.md"
+authors = [
+    { name = "Camilo-HG", email = "22363097+Camilo-HG@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "cookiecutter>=2.7.1",
+]
+
+[project.scripts]
+student-placement-mlops-project = "student_placement_mlops_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.8,<0.13.0"]
+build-backend = "uv_build"
